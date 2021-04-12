@@ -778,14 +778,14 @@ footer {
   padding-bottom: .5em;
 }
 .rwd-table td:before {
-  content: attr(data-th) ": ";
   font-weight: bold;
   width: 9.5em;
   display: inline-block;
+  
 }
 @media (min-width: 480px) {
-  .rwd-table td:before {
-    display: none;
+  .rwd-table  {
+    min-width: 200px;
   }
 }
 .rwd-table th, .rwd-table td {
@@ -827,12 +827,16 @@ h1 {
 .rwd-table th, .rwd-table td {
   margin: .5em 1em;
 }
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   .rwd-table th, .rwd-table td {
     padding: 1em !important;
+    margin-right: 15%;
+  }
+  .rwd-table {
+    margin-right: 150px
   }
 }
-.rwd-table th, .rwd-table td:before {
+.rwd-table th, .rwd-table  {
   color: #ffffff;
 }
 
