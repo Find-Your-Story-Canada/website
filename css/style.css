@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 		font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 @media (max-width: 600px) {
   .contact_des {
@@ -12,7 +13,9 @@ body {
   }
 }
 
-
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 }
@@ -60,7 +63,7 @@ a {
 }
 
 #overview,
-#register {
+#register, #awards {
   padding-top: 14rem;
   padding-bottom: 14rem;
 }
@@ -80,7 +83,7 @@ footer {
   text-align: center;
 }
 
-#overview h3,
+#overview h3, #awards h3
 #detail h3, #video h3,
 #register h3,
 #venue h3,
@@ -198,7 +201,7 @@ footer {
     font-weight: 600;
     font-size: 3rem;
     line-height: 40px;
-	opacity: 0.8;
+
 }
 
 .custom-navbar .nav li a {
@@ -295,7 +298,7 @@ background-size:cover;
 /*---------------------------------------
    Overview  section              
 -----------------------------------------*/
-#overview img {
+#overview img,  {
   position: relative;
   padding-bottom: 32px;
 }
@@ -462,7 +465,9 @@ background-size:cover;
   color: #222;
 }
 
-
+.header {
+  font-family: 'Poppins', sans-serif;
+}
 
 /*---------------------------------------
    Faq section              
@@ -715,7 +720,7 @@ footer {
     line-height: 20px;
   }
 
-  #overview img,
+  #overview img, #awards .rwd-table,
   #detail .col-md-4,
   #register form {
     padding-top: 32px;
@@ -750,7 +755,7 @@ footer {
 
 .rwd-table {
   margin: 1em 0;
-  min-width: 700px;
+  min-width: 400px;
   min-height: 200px;
   margin-left: 15%;
   margin-right:auto;
