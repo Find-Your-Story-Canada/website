@@ -783,9 +783,12 @@ footer {
   display: inline-block;
   
 }
-@media (min-width: 480px) {
+@media (max-width: 600px) {
   .rwd-table  {
-    min-width: 200px;
+min-width: 300px;
+  }
+  .rwd-table td {
+    padding: 10px;
   }
 }
 .rwd-table th, .rwd-table td {
