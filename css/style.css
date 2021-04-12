@@ -785,7 +785,7 @@ footer {
 }
 @media (max-width: 600px) {
   .rwd-table  {
-min-width: 300px;
+min-width: 250px;
   }
   .rwd-table td {
     padding: 10px;
